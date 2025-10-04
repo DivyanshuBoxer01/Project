@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container
 {
@@ -19,7 +20,7 @@ p
 {
     text-align: center;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-top: 10px;
     padding-bottom: 20px;
     font-weight: 600;
@@ -43,7 +44,7 @@ nav
     justify-content: space-between;
     min-width:80%;
     margin-inline: 80px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .nav-in
 {
@@ -65,8 +66,8 @@ nav
 .nav-butt
 {
     display: inline-block;
-    height: 30px;
-    width: 6%;
+    height: 35px;
+    width: 7%;
     justify-content: center;
     border: 2px solid white;
     align-content: center;
@@ -100,16 +101,16 @@ main hr
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 15px;
-    height: 250px;
+    height: 280px;
     width: 100%;
     background-color: black;
     color: white;
     font-family: "Roboto", sans-serif;
+    align-items: center;
 }
 .banner-img h1
 {
-    padding-top: 3%;
-    font-size: 35px;
+    font-size: 2.5em;
     text-align: center;
 }
 span
@@ -126,7 +127,6 @@ span
     justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
-    width: 100%;
     padding-bottom: 10px;
 }
 .tag
@@ -142,27 +142,25 @@ span
     padding-bottom: 20px;
     color: white;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
 }
 .main-img-in
 {
     flex-direction: column;
-    justify-content: space-evenly;
-    border-radius: 8px;
+    border-radius: 10px;
     padding-top: 20px;
-    min-height: 200px;
-    min-width: 13%;
+    height: 360px;
+    width: 23%;
     margin: 10px;
-    background-color: rgb(151, 239, 18);
-    align-items: center;
-    align-content: top;
+    background-color: rgba(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
 }
 .main-img-in img
 {
+    width: 100%;
     border-radius: 6px;
 }
 .main-second
@@ -176,10 +174,10 @@ span
 .main-img-sec
 {
     padding-top: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex-direction: column;
-    min-height: 200px;
-    min-width:13%;
+    height: 360px;
+    width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
@@ -189,7 +187,8 @@ span
 }
 .main-img-sec img
 {
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 6px;
 }
 .main-third
 {
@@ -202,10 +201,10 @@ span
 .main-img-3
 {
     padding-top: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex-direction: column;
-    min-height: 200px;
-    min-width:13%;
+    height: 360px;
+    width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
@@ -215,6 +214,7 @@ span
 }
 .main-img-3 img
 {
+    width: 100%;
     border-radius: 6px;
 }
 .main-fourth
@@ -228,10 +228,10 @@ span
 .main-img-4
 {
     padding-top: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex-direction: column;
-    min-height: 200px;
-    min-width:13%;
+    height: 360px;
+    width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
@@ -241,6 +241,7 @@ span
 }
 .main-img-4 img
 {
+    width: 100%;
     border-radius: 6px;
 }
 .main-fiveth
@@ -254,10 +255,10 @@ span
 .main-img-5
 {
     padding-top: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex-direction: column;
-    min-height: 180px;
-    min-width:13%;
+    height: 360px;
+    width: 23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
@@ -267,6 +268,7 @@ span
 }
 .main-img-5 img
 {
+    width: 100%;
     border-radius: 6px;
 }
 .main-sixth
@@ -280,10 +282,10 @@ span
 .main-img-6
 {
     padding-top: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex-direction: column;
-    min-height: 180px;
-    min-width:12%;
+    height: 360px;
+    width: 23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
@@ -293,6 +295,7 @@ span
 }
 .main-img-6 img
 {
+    width: 100%;
     border-radius: 6px;
 }
 .hr-line
@@ -302,7 +305,7 @@ span
 }
 footer
 {
-    height: 35vh;
+    height: 20vh;
 }
 .last-footer
 {
