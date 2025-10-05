@@ -28,7 +28,6 @@ p
 }
 h1
 {
-    color: white;
     font-size: 2rem;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -96,17 +95,17 @@ main hr
     min-width: 100%;
     border: 2px solid rgb(113, 239, 113);
 }
-.banner-img
+.banner-img-main
 {
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 15px;
-    height: 280px;
-    width: 100%;
+}
+.banner-img
+{
+    padding-top: 3%;
     background-color: black;
     color: white;
     font-family: "Roboto", sans-serif;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .banner-img h1
 {
@@ -124,10 +123,10 @@ span
 .main-first
 {
     padding-top: 20px;
-    justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
+    justify-content: center;
 }
 .tag
 {
@@ -151,7 +150,7 @@ span
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    height: 360px;
+    min-height: 360px;
     width: 23%;
     margin: 10px;
     background-color: rgba(151, 239, 18);
@@ -181,8 +180,6 @@ span
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 .main-img-sec img
@@ -208,8 +205,6 @@ span
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 .main-img-3 img
@@ -235,8 +230,6 @@ span
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 .main-img-4 img
@@ -254,7 +247,7 @@ span
 }
 .main-img-5
 {
-    padding-top: 10px;
+    padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
     height: 360px;
@@ -262,8 +255,6 @@ span
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 .main-img-5 img
@@ -281,7 +272,7 @@ span
 }
 .main-img-6
 {
-    padding-top: 10px;
+    padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
     height: 360px;
@@ -289,8 +280,6 @@ span
     background-color: rgb(151, 239, 18);
     margin:10px;
     cursor: pointer;
-    align-items: center;
-    align-content: center;
     overflow: hidden;
 }
 .main-img-6 img
