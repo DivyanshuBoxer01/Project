@@ -67,7 +67,7 @@ nav
 {
     display: inline-block;
     height: 35px;
-    width: 12%;
+    width: 8%;
     justify-content: center;
     border: 2px solid white;
     align-content: center;
@@ -95,7 +95,7 @@ body
 main hr
 {
     min-width: 100%;
-    border: 2px solid rgb(113, 239, 113);
+    border: 2px solid rgb(14, 149, 14);
 }
 .banner-img-main
 {
@@ -157,17 +157,17 @@ span
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    height: 360px;
+    height: 280px;
     width: 23%;
     margin: 10px;
-    background-color: rgba(151, 239, 18);
+    background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
 }
 .main-img-in img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .main-second
 {
@@ -183,7 +183,7 @@ span
     padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
-    height: 360px;
+    height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
@@ -193,7 +193,7 @@ span
 .main-img-sec img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .main-third
 {
@@ -209,7 +209,7 @@ span
     padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
-    height: 360px;
+    height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
@@ -219,7 +219,7 @@ span
 .main-img-3 img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .main-fourth
 {
@@ -235,7 +235,7 @@ span
     padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
-    height: 360px;
+    height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
@@ -245,7 +245,7 @@ span
 .main-img-4 img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .main-fiveth
 {
@@ -261,7 +261,7 @@ span
     padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
-    height: 360px;
+    height: 280px;
     width: 23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
@@ -271,7 +271,7 @@ span
 .main-img-5 img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .main-sixth
 {
@@ -287,7 +287,7 @@ span
     padding-top: 20px;
     border-radius: 10px;
     flex-direction: column;
-    height: 360px;
+    height: 280px;
     width: 23%;
     background-color: rgb(151, 239, 18);
     margin:10px;
@@ -297,12 +297,12 @@ span
 .main-img-6 img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 6px 6px 0 0;
 }
 .hr-line
 {
     min-width: 100%;
-    border: 2px solid rgb(113, 239, 113);
+    border: 2px solid rgb(14, 149, 14);
 }
 footer
 {
