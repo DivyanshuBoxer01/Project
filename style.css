@@ -7,7 +7,7 @@
 }
 .container
 {
-    min-width: 1160px;
+    max-width: 1180px;
     padding-inline: auto;
     margin-inline: auto;
     overflow: hidden;
@@ -61,12 +61,13 @@ nav
 #spe-butt
 {
     color:white;
+    flex-wrap: nowrap;
 }
 .nav-butt
 {
     display: inline-block;
     height: 35px;
-    width: 7%;
+    width: 12%;
     justify-content: center;
     border: 2px solid white;
     align-content: center;
@@ -74,6 +75,7 @@ nav
     text-align: center;
     background-color: rgb(14, 149, 14);
     border-radius: 4px;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
     cursor: pointer;
     transition: 0.2 ease-in-out;
@@ -112,6 +114,10 @@ main hr
     font-size: 2.5em;
     text-align: center;
 }
+.img-banner img
+{
+    height: 280px;
+}
 span
 {
     color: rgb(229,20,9);
@@ -127,6 +133,7 @@ span
     padding-right: 5px;
     padding-bottom: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .tag
 {
@@ -150,7 +157,7 @@ span
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    min-height: 360px;
+    height: 360px;
     width: 23%;
     margin: 10px;
     background-color: rgba(151, 239, 18);
@@ -169,6 +176,7 @@ span
     padding-right: 5px;
     width: 100%;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .main-img-sec
 {
@@ -194,6 +202,7 @@ span
     padding-left: 5px;
     padding-right: 5px;
     width: 100%;
+    flex-wrap: wrap;
 }
 .main-img-3
 {
@@ -219,6 +228,7 @@ span
     padding-right: 5px;
     width: 100%;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .main-img-4
 {
@@ -244,6 +254,7 @@ span
     padding-right: 5px;
     width: 100%;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .main-img-5
 {
@@ -269,6 +280,7 @@ span
     padding-right: 5px;
     width: 100%;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .main-img-6
 {
