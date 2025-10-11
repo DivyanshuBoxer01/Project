@@ -56,14 +56,9 @@
         justify-content: center;
         align-items: center;
     }
-    .nav-main
-    {
-        margin-inline: none;
-        margin-left: 35px;
-    }
     .nav-in
     {
-        font-size: 18px;
+        font-size: 16px;
     }
     .nav-butt
     {
@@ -83,21 +78,21 @@
     .gym-img
     {
         width: 80%;
-        height: 280px;
+        height: 260px;
     }
     .boxing-img
     {
         width: 80%;
-        height: 290px;
+        height: 280px;
     }
     .diet-img
     {
         width: 80%;
-        height: 280px;
+        height: 260px;
     }
     footer 
    {
-     height: 35vh;
+     height: 45vh;
    }
    .last-footer
    {

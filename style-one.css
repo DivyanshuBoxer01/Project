@@ -168,7 +168,7 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-in:hover
 {
@@ -203,7 +203,7 @@ span
     margin:10px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-sec:hover
 {
@@ -238,7 +238,7 @@ span
     margin:10px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-3:hover
 {
@@ -273,7 +273,7 @@ span
     margin:10px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-4:hover
 {
@@ -308,7 +308,7 @@ span
     margin:10px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-5:hover
 {
@@ -343,7 +343,7 @@ span
     margin:10px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .main-img-6:hover
 {

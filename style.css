@@ -158,7 +158,7 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .gym-img:hover
 {
@@ -193,7 +193,7 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden; 
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .boxing-img:hover
 {
@@ -228,7 +228,7 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden; 
-    transition: 0.2s ease-in-out;
+    transition: 0.2 ease;
 }
 .diet-img:hover
 {

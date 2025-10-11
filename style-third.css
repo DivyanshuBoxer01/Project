@@ -85,7 +85,7 @@ nav
     cursor: pointer;
     transition: 0.2 ease-in-out;
 }
-.nav-butt .nav-in:hover
+.nav-butt .nav-in
 {
     font-size: 17px;
 }

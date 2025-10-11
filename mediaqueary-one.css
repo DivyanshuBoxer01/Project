@@ -75,14 +75,9 @@
         justify-content: center;
         align-items: center;
     }
-    .nav-main
-    {
-        margin-inline: none;
-        margin-left: 35px;
-    }
     .nav-in
     {
-        font-size: 18px;
+        font-size: 16px;
     }
     .nav-butt
     {
@@ -118,7 +113,7 @@
     .main-img-in
     {
         padding-top: 0;
-        height: 300px;
+        height: 290px;
         width: 75%;
         border-radius: 20px;
     }
@@ -139,13 +134,13 @@
     .main-img-4
     {
         padding-top: 0;
-        height: 310px;
+        height: 300px;
         width: 75%;
         border-radius: 20px;
     }
     .main-img-5
    {
-    padding-top: 0;
+        padding-top: 0;
         height: 300px;
         width: 75%;
         border-radius: 20px;
@@ -159,7 +154,7 @@
    }
    footer 
    {
-     height: 35vh;
+     height: 45vh;
    }
    .last-footer
    {

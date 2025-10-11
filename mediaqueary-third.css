@@ -1,13 +1,12 @@
 @media screen and (max-width:479px)
 {
-    .nav-main
+    #spe-butt
     {
-        margin-inline: none;
-        margin-left: 35px;
+        font-size: 14px;
     }
     .nav-in
     {
-        font-size: 18px;
+        font-size: 16px;
     }
     .nav-butt
     {
