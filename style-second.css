@@ -41,8 +41,9 @@ nav
 {
     justify-content: space-evenly;
     min-width:85%;
-    margin-inline: 50px;
+    margin-inline: 10px;
     padding-top: 30px;
+    gap: 10px;
 }
 .nav-hover
 {
