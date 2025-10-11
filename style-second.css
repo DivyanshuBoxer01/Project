@@ -103,6 +103,10 @@ main hr
 {
     justify-content: space-evenly;
 }
+.img-banner img 
+{
+    height: 300px;
+}
 .lines
 {
     padding-top: 3%;
