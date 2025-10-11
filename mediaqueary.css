@@ -1,0 +1,110 @@
+@media screen and (max-width: 767px)
+{
+    .nav-butt
+    {
+        height: 35px;
+        width: 15%;
+    }
+    #spe-butt
+    {
+        font-size: 14px;
+    }
+    .banner-img-main
+    {
+        justify-content: space-evenly;
+    }
+    .img-banner img
+    {
+        height: 200px;
+    }
+    .lines h1 
+    {
+        font-size: 1.7rem;
+    }
+    .gym-img
+    {
+        padding-top: 0;
+        width: 75%;
+        height: 360px;
+    }
+    .boxing-img
+    {
+        padding-top: 0;
+        width:75%;
+        height: 370px;
+    }
+    .diet-img
+    {
+        padding-top: 0;
+        width:75%;
+        height: 340px;
+    }
+    footer 
+   {
+      height: 30vh;
+   }
+   .last
+   {
+     font-size: 1rem;
+   }
+}
+@media screen and (max-width: 479px)
+{
+    .banner-image
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-main
+    {
+        margin-inline: none;
+        margin-left: 35px;
+    }
+    .nav-in
+    {
+        font-size: 15px;
+    }
+    .nav-butt
+    {
+        font-size: 8px;
+        width: 22%;
+        height: 30px;
+        border: 0.8px solid #ffffff;
+    }
+    .img-banner img 
+    {
+        height: 350px;
+    }
+   .lines h1 
+   {
+        font-size: 1.7rem;
+   }
+    .gym-img
+    {
+        width: 80%;
+        height: 305px;
+    }
+    .boxing-img
+    {
+        width: 80%;
+        height: 330px;
+    }
+    .diet-img
+    {
+        width: 80%;
+        height: 305px;
+    }
+    footer 
+   {
+     height: 35vh;
+   }
+   .last-footer
+   {
+    padding-top: 10px;
+   }
+   .last
+   {
+     font-size: 1rem;
+   }
+}

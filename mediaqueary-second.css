@@ -1,0 +1,163 @@
+@media screen and (max-width: 767px)
+{
+     .nav-butt
+    {
+        height: 35px;
+        width: 15%;
+    }
+    #spe-butt
+    {
+        font-size: 14px;
+    }
+    .banner-img-main
+    {
+        justify-content: space-evenly;
+    }
+    .img-banner img
+    {
+        height: 200px;
+    }
+    .lines h1 
+    {
+        font-size: 1.5rem;
+    }
+    .day-first-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    .day-second-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    .day-third-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    .day-four-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    .day-five-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    .day-six-img
+    {
+        padding-top: 0;
+        width: 30%;
+        height: 280px;
+    }
+    footer 
+   {
+      height: 30vh;
+   }
+   .last
+   {
+     font-size: 1rem;
+   }
+}
+@media screen and (max-width:479px)
+{
+    .banner-image
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-main
+    {
+        margin-inline: none;
+        margin-left: 35px;
+    }
+    .nav-hover
+    {
+        font-size: 15px;
+    }
+    .nav-butt
+    {
+        font-size: 8px;
+        width: 22%;
+        height: 30px;
+        border: 0.8px solid #ffffff;
+    }
+    .img-banner img 
+    {
+        height: 300px;
+    }
+    p 
+    {
+        font-size: 1.3rem;
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .tag
+    {
+        text-align: center;
+    }
+    .tag-2
+    {
+        font-size: 1.5rem;
+    }
+    .lines h1 
+   {
+        font-size: 1.7rem;
+   }
+   .day-first-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    .day-second-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    .day-third-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    .day-four-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    .day-five-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    .day-six-img
+    {
+        padding-top: 0;
+        width: 40%;
+        height: 250px;
+    }
+    footer 
+   {
+     height: 35vh;
+   }
+   .last-footer
+   {
+    padding-top: 10px;
+   }
+   .last
+   {
+     font-size: 1rem;
+   }
+}

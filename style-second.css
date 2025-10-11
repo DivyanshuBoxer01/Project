@@ -20,7 +20,7 @@ p
 {
     text-align: center;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-top: 10px;
     padding-bottom: 20px;
     font-weight: 600;
@@ -32,20 +32,19 @@ h1
     font-weight: 500;
     font-family: "Roboto", sans-serif;
 }
-nav
+nav 
 {
     background-color: black;
     height: 70px;
-
 }
-.nav-main
+.nav-link
 {
     justify-content: space-evenly;
     min-width:85%;
     margin-inline: 50px;
     padding-top: 30px;
 }
-.nav-in
+.nav-hover
 {
     color: white;
     text-decoration: none;
@@ -54,14 +53,13 @@ nav
     font-family: "Roboto", sans-serif;
     transition: 0.2 ease-in-out;
 }
-.nav-in:hover
+.nav-hover:hover
 {
     color:rgb(91, 200, 91);
 }
-#spe-butt
+#spe-hover
 {
-    color:white;
-    flex-wrap: nowrap;
+    color:rgb(91, 200, 91);
 }
 .nav-butt
 {
@@ -80,7 +78,7 @@ nav
     cursor: pointer;
     transition: 0.2 ease-in-out;
 }
-.nav-butt .nav-in
+.nav-butt .nav-hover
 {
     font-size: 17px;
 }
@@ -105,10 +103,6 @@ main hr
 {
     justify-content: space-evenly;
 }
-.img-banner img
-{
-    height: 300px;
-}
 .lines
 {
     padding-top: 3%;
@@ -120,12 +114,19 @@ main hr
 }
 .lines h1
 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
 }
 span
 {
     color: rgb(229,20,9);
+}
+.tag
+{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: yellow;
+    text-decoration: underline;
 }
 .tag-2
 {
@@ -133,11 +134,11 @@ span
     padding-bottom: 20px;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
 }
-.big-box
+.day-first
 {
     padding-top: 20px;
     padding-left: 5px;
@@ -146,33 +147,24 @@ span
     justify-content: center;
     flex-wrap: wrap;
 }
-.gym-img
+.day-first-img
 {
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    height: 350px;
-    width: 40%;
+    height: 300px;
+    width: 23%;
     margin: 10px;
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
 }
-.gym-img:hover
-{
-    transform: scale(1.1);
-}
-.gym-img img
+.day-first-img img 
 {
     width: 100%;
     border-radius: 6px 6px 0 0;
 }
-.gym-img a 
-{
-    text-decoration: none;
-}
-.big-box-2
+.day-second
 {
     padding-top: 20px;
     padding-left: 5px;
@@ -181,66 +173,126 @@ span
     justify-content: center;
     flex-wrap: wrap;
 }
-.boxing-img
+.day-second-img
 {
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    height: 410px;
-    width: 40%;
+    height: 300px;
+    width: 23%;
     margin: 10px;
     background-color: rgb(151, 239, 18);
     cursor: pointer;
-    overflow: hidden; 
-    transition: 0.2s ease-in-out;
+    overflow: hidden;
 }
-.boxing-img:hover
-{
-     transform: scale(1.1);
-}
-.boxing-img img
+.day-second-img img 
 {
     width: 100%;
     border-radius: 6px 6px 0 0;
 }
-.boxing-img a 
-{
-    text-decoration: none;
-}
-.big-box-3
+.day-third
 {
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     justify-content: center;
     flex-wrap: wrap;
 }
-.diet-img
+.day-third-img
 {
     flex-direction: column;
     border-radius: 10px;
     padding-top: 20px;
-    height: 360px;
-    width: 40%;
+    height: 300px;
+    width: 23%;
     margin: 10px;
     background-color: rgb(151, 239, 18);
     cursor: pointer;
-    overflow: hidden; 
-    transition: 0.2s ease-in-out;
+    overflow: hidden;
 }
-.diet-img:hover
-{
-    transform: scale(1.1);
-}
-.diet-img img
+.day-third-img img 
 {
     width: 100%;
     border-radius: 6px 6px 0 0;
 }
-.diet-img a 
+.day-four
 {
-    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.day-four-img
+{
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 310px;
+    width: 23%;
+    margin: 10px;
+    background-color: rgb(151, 239, 18);
+    cursor: pointer;
+    overflow: hidden;
+}
+.day-four-img img 
+{
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.day-five
+{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.day-five-img
+{
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 310px;
+    width: 23%;
+    margin: 10px;
+    background-color: rgb(151, 239, 18);
+    cursor: pointer;
+    overflow: hidden;
+}
+.day-five-img img 
+{
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+.day-six
+{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.day-six-img
+{
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 310px;
+    width: 23%;
+    margin: 10px;
+    background-color: rgb(151, 239, 18);
+    cursor: pointer;
+    overflow: hidden;
+}
+.day-six-img img 
+{
+    width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 .hr-line
 {

@@ -20,7 +20,7 @@ p
 {
     text-align: center;
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-top: 10px;
     padding-bottom: 20px;
     font-weight: 600;
@@ -63,6 +63,10 @@ nav
     color:white;
     flex-wrap: nowrap;
 }
+#spe-hover
+{
+    color:rgb(91, 200, 91);
+}
 .nav-butt
 {
     display: inline-block;
@@ -80,7 +84,7 @@ nav
     cursor: pointer;
     transition: 0.2 ease-in-out;
 }
-.nav-butt .nav-in
+.nav-butt .nav-in:hover
 {
     font-size: 17px;
 }
@@ -101,28 +105,6 @@ main hr
     min-width: 100%;
     border: 2px solid rgb(14, 149, 14);
 }
-.banner-image 
-{
-    justify-content: space-evenly;
-}
-.img-banner img
-{
-    height: 300px;
-}
-.lines
-{
-    padding-top: 3%;
-    background-color: black;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    flex-wrap: wrap;
-    align-content: stretch;
-}
-.lines h1
-{
-    font-size: 2.5rem;
-    text-align: center;
-}
 span
 {
     color: rgb(229,20,9);
@@ -136,111 +118,6 @@ span
     font-size: 2rem;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
-}
-.big-box
-{
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.gym-img
-{
-    flex-direction: column;
-    border-radius: 10px;
-    padding-top: 20px;
-    height: 350px;
-    width: 40%;
-    margin: 10px;
-    background-color: rgb(151, 239, 18);
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.2s ease-in-out;
-}
-.gym-img:hover
-{
-    transform: scale(1.1);
-}
-.gym-img img
-{
-    width: 100%;
-    border-radius: 6px 6px 0 0;
-}
-.gym-img a 
-{
-    text-decoration: none;
-}
-.big-box-2
-{
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.boxing-img
-{
-    flex-direction: column;
-    border-radius: 10px;
-    padding-top: 20px;
-    height: 410px;
-    width: 40%;
-    margin: 10px;
-    background-color: rgb(151, 239, 18);
-    cursor: pointer;
-    overflow: hidden; 
-    transition: 0.2s ease-in-out;
-}
-.boxing-img:hover
-{
-     transform: scale(1.1);
-}
-.boxing-img img
-{
-    width: 100%;
-    border-radius: 6px 6px 0 0;
-}
-.boxing-img a 
-{
-    text-decoration: none;
-}
-.big-box-3
-{
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.diet-img
-{
-    flex-direction: column;
-    border-radius: 10px;
-    padding-top: 20px;
-    height: 360px;
-    width: 40%;
-    margin: 10px;
-    background-color: rgb(151, 239, 18);
-    cursor: pointer;
-    overflow: hidden; 
-    transition: 0.2s ease-in-out;
-}
-.diet-img:hover
-{
-    transform: scale(1.1);
-}
-.diet-img img
-{
-    width: 100%;
-    border-radius: 6px 6px 0 0;
-}
-.diet-img a 
-{
-    text-decoration: none;
 }
 .hr-line
 {

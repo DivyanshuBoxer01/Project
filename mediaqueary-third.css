@@ -1,0 +1,35 @@
+@media screen and (max-width:479px)
+{
+    .nav-main
+    {
+        margin-inline: none;
+        margin-left: 35px;
+    }
+    .nav-in
+    {
+        font-size: 15px;
+    }
+    .nav-butt
+    {
+        font-size: 8px;
+        width: 22%;
+        height: 30px;
+        border: 0.8px solid #ffffff;
+    }
+    .tag-2
+    {
+        font-size: 1.5rem;
+    }
+    footer 
+   {
+     height: 35vh;
+   }
+   .last-footer
+   {
+    padding-top: 10px;
+   }
+   .last
+   {
+     font-size: 1rem;
+   }
+}
