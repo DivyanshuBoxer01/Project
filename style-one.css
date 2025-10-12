@@ -129,7 +129,7 @@ span
 }
 .main-start
 {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .main-first
 {
@@ -164,7 +164,7 @@ span
     padding-top: 20px;
     height: 280px;
     width: 23%;
-    margin: 10px;
+    margin: 5px;
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
@@ -200,7 +200,7 @@ span
     height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
-    margin:10px;
+    margin: 5px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.2 ease;
@@ -235,7 +235,7 @@ span
     height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
-    margin:10px;
+    margin: 5px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.2 ease;
@@ -270,7 +270,7 @@ span
     height: 280px;
     width:23%;
     background-color: rgb(151, 239, 18);
-    margin:10px;
+    margin: 5px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.2 ease;
@@ -305,7 +305,7 @@ span
     height: 315px;
     width: 23%;
     background-color: rgb(151, 239, 18);
-    margin:10px;
+    margin: 5px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.2 ease;
@@ -340,7 +340,7 @@ span
     height: 280px;
     width: 23%;
     background-color: rgb(151, 239, 18);
-    margin:10px;
+    margin: 5px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.2 ease;

@@ -85,13 +85,17 @@
         height: 25px;
         border: 0.8px solid #ffffff;
     }
+    #spe-butt
+    {
+        font-size: 12px;
+    }
     .img-banner img 
     {
         height: 280px;
     }
     p 
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 0;
         padding-top: 5px;
     }
@@ -110,38 +114,38 @@
    .day-first-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     .day-second-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     .day-third-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     .day-four-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     .day-five-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     .day-six-img
     {
         padding-top: 0;
-        width: 43%;
-        height: 225px;
+        width: 47%;
+        height: 215px;
     }
     footer 
    {

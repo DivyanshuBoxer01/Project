@@ -79,6 +79,10 @@
     {
         font-size: 16px;
     }
+    #spe-butt
+    {
+        font-size: 12px;
+    }
     .nav-butt
     {
         font-size: 8px;
@@ -102,7 +106,7 @@
     }
     p 
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-bottom: 0;
         padding-top: 5px;
     }
@@ -113,44 +117,44 @@
     .main-img-in
     {
         padding-top: 0;
-        height: 225px;
-        width: 43%;
+        height: 210px;
+        width: 47%;
         border-radius: 10px;
     }
     .main-img-sec
     {
         padding-top: 0;
-        height: 225px;
-        width: 43%;
-        border-radius: 10px;
+        height: 210px;
+        width: 47%;
+        border-radius: 6px;
     }
     .main-img-3
     {
         padding-top: 0;
-        height: 225px;
-        width: 43%;
-        border-radius: 10px;
+        height: 210px;
+        width: 47%;
+        border-radius: 6px;
     }
     .main-img-4
     {
         padding-top: 0;
-        height: 225px;
-        width: 43%;
-        border-radius: 10px;
+        height: 210px;
+        width: 47%;
+        border-radius: 6px;
     }
     .main-img-5
    {
         padding-top: 0;
-        height: 225px;
-        width: 43%;
-        border-radius: 10px;
+        height: 210px;
+        width: 47%;
+        border-radius: 6px;
    }
    .main-img-6
    {
       padding-top: 0;
-      height: 225px;
-      width: 43%;
-      border-radius: 10px;
+      height: 210px;
+      width: 47%;
+      border-radius: 6px;
    }
    footer 
    {
