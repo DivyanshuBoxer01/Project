@@ -82,8 +82,8 @@
     .nav-butt
     {
         font-size: 8px;
-        width: 22%;
-        height: 30px;
+        width: 15%;
+        height: 25px;
         border: 0.8px solid #ffffff;
     }
     .banner-img h1 
@@ -102,9 +102,9 @@
     }
     p 
     {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-bottom: 0;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .tag-2
     {
@@ -113,44 +113,44 @@
     .main-img-in
     {
         padding-top: 0;
-        height: 290px;
-        width: 75%;
-        border-radius: 20px;
+        height: 225px;
+        width: 43%;
+        border-radius: 10px;
     }
     .main-img-sec
     {
         padding-top: 0;
-        height: 300px;
-        width: 75%;
-        border-radius: 20px;
+        height: 225px;
+        width: 43%;
+        border-radius: 10px;
     }
     .main-img-3
     {
         padding-top: 0;
-        height: 300px;
-        width: 75%;
-        border-radius: 20px;
+        height: 225px;
+        width: 43%;
+        border-radius: 10px;
     }
     .main-img-4
     {
         padding-top: 0;
-        height: 300px;
-        width: 75%;
-        border-radius: 20px;
+        height: 225px;
+        width: 43%;
+        border-radius: 10px;
     }
     .main-img-5
    {
         padding-top: 0;
-        height: 300px;
-        width: 75%;
-        border-radius: 20px;
+        height: 225px;
+        width: 43%;
+        border-radius: 10px;
    }
    .main-img-6
    {
       padding-top: 0;
-      height: 300px;
-      width: 75%;
-      border-radius: 20px;
+      height: 225px;
+      width: 43%;
+      border-radius: 10px;
    }
    footer 
    {

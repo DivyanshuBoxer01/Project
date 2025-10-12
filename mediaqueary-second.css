@@ -81,8 +81,8 @@
     .nav-butt
     {
         font-size: 8px;
-        width: 22%;
-        height: 30px;
+        width: 15%;
+        height: 25px;
         border: 0.8px solid #ffffff;
     }
     .img-banner img 
@@ -91,9 +91,9 @@
     }
     p 
     {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-bottom: 0;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .tag
     {
@@ -110,38 +110,38 @@
    .day-first-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     .day-second-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     .day-third-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     .day-four-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     .day-five-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     .day-six-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 290px;
+        width: 43%;
+        height: 225px;
     }
     footer 
    {
