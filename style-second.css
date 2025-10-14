@@ -155,7 +155,7 @@ span
 .day-first-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 300px;
     width: 23%;
@@ -181,7 +181,7 @@ span
 .day-second-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 300px;
     width: 23%;
@@ -207,7 +207,7 @@ span
 .day-third-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 300px;
     width: 23%;
@@ -233,7 +233,7 @@ span
 .day-four-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 310px;
     width: 23%;
@@ -259,7 +259,7 @@ span
 .day-five-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 310px;
     width: 23%;
@@ -285,7 +285,7 @@ span
 .day-six-img
 {
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 6px;
     padding-top: 20px;
     height: 310px;
     width: 23%;
@@ -317,4 +317,8 @@ footer
 {
     text-decoration: none;
 
+}
+.last:hover 
+{
+     color:rgb(91, 200, 91);
 }

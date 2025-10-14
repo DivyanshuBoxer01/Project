@@ -139,3 +139,7 @@ footer
     text-decoration: none;
 
 }
+.last:hover 
+{
+     color:rgb(91, 200, 91);
+}

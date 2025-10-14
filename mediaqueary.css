@@ -15,29 +15,38 @@
     }
     .img-banner img
     {
-        height: 200px;
+        height: 180px;
     }
     .lines h1 
     {
         font-size: 1.7rem;
     }
+    .big-box
+    {
+        flex-direction: column;
+    }
     .gym-img
     {
         padding-top: 0;
-        width: 75%;
-        height: 360px;
+        width: 100%;
+    }
+    .big-box-2
+    {
+        flex-direction: column;
     }
     .boxing-img
     {
         padding-top: 0;
-        width:75%;
-        height: 370px;
+        width: 100%;
+    }
+    .big-box-3
+    {
+        flex-direction: column;
     }
     .diet-img
     {
         padding-top: 0;
-        width:75%;
-        height: 340px;
+        width:100%;
     }
     footer 
    {
@@ -75,20 +84,33 @@
    {
         font-size: 1.7rem;
    }
+   .text-img p
+   {
+        font-size: 1.1rem;
+   }
+   .big-box
+    {
+        flex-direction: column;
+    }
     .gym-img
     {
-        width: 80%;
-        height: 260px;
+        width: 100%;
+    }
+     .big-box-2
+    {
+        flex-direction: column;
     }
     .boxing-img
     {
-        width: 80%;
-        height: 280px;
+        width: 100%;
+    }
+    .big-box-3
+    {
+        flex-direction: column;
     }
     .diet-img
     {
-        width: 80%;
-        height: 260px;
+        width: 100%;
     }
     footer 
    {
