@@ -105,6 +105,7 @@ main hr
 .banner-img-main
 {
     justify-content: space-evenly;
+    gap: 10px;
 }
 .banner-img
 {
@@ -168,11 +169,12 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-in:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-in img
 {
@@ -203,11 +205,12 @@ span
     margin: 5px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-sec:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-sec img
 {
@@ -238,11 +241,12 @@ span
     margin: 5px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-3:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-3 img
 {
@@ -273,11 +277,12 @@ span
     margin: 5px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-4:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-4 img
 {
@@ -308,11 +313,12 @@ span
     margin: 5px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-5:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-5 img
 {
@@ -343,11 +349,12 @@ span
     margin: 5px;
     cursor: pointer;
     overflow: hidden;
-    transition: 0.2 ease;
+    transition: all 0.2s ease-in-out;
 }
 .main-img-6:hover
 {
-    transform: scale(1.1);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .main-img-6 img
 {
