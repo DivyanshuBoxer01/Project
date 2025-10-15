@@ -152,7 +152,7 @@ span
     justify-content: space-evenly;
     margin-inline: 20px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .gym-img
@@ -162,7 +162,7 @@ span
 .gym-img img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .text-img p
 {
@@ -178,7 +178,7 @@ span
     justify-content: space-evenly;
     margin-inline: 20px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgb(22, 201, 123);
 }
 .boxing-img
@@ -188,7 +188,7 @@ span
 .boxing-img img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .big-box-3
 {
@@ -198,7 +198,7 @@ span
     margin-top: 20px;
     margin-bottom: 10px;
     margin-inline: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     justify-content: space-evenly;
     box-shadow: 0 0 10px rgb(22, 201, 123);
 }
@@ -209,7 +209,7 @@ span
 .diet-img img
 {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 .hr-line
 {
