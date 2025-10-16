@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1180px;
+    padding-inline: auto;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.flex
+{
+    display: flex;
+}
+h1
+{
+    color:rgb(91, 200, 91);
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+nav
+{
+    background-color: black;
+    height: 80px;
+
+}
+.nav-main
+{
+    min-width:85%;
+    margin-inline: 10px;
+    padding-top: 30px;
+    gap: 10px;
+}
+.nav-in
+{
+    color:rgb(229, 9, 20);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2 ease-in-out;
+}
+body
+{
+    background-color: black;
+}
+.main
+{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main-first
+{
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    margin-inline: 10px;
+    border-radius: 15px;
+    width: 40%;
+    height: 500px;
+    box-shadow: 0 0 10px rgb(22, 201, 123);
+}
+.main-first h1 
+{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.main-start
+{
+    flex-direction: column;
+    align-items: center;
+}
+.input-tag
+{
+    width: 90%;
+    height: 40px;
+    color: black;
+    background-color: black;
+    border: 1.5px solid rgb(124, 124, 124);
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.butt-in
+{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(19, 247, 19, 0.704);
+    width: 95%;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.butt-in a
+{
+    text-decoration: none;
+}
+.butt-tag
+{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+.circle
+{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: linear-gradient( to right, rgba(19, 247, 19, 0.704), rgba(19, 247, 19));
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 767px)
+{
+    .nav-in
+    {
+        font-size: 25px;
+    }
+    .main-first
+    {
+        width: 90%;
+        height: 600px;
+    }
+    .main-first h1 
+    {
+        padding-left: 10px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .butt-tag
+    {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
