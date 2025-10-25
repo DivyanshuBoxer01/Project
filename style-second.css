@@ -164,6 +164,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-first-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-first-img a 
+{
+    text-decoration: none;
 }
 .day-first-img img 
 {
@@ -190,6 +200,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-second-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-second-img a 
+{
+    text-decoration: none;
 }
 .day-second-img img 
 {
@@ -216,6 +236,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-third-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-third-img a 
+{
+    text-decoration: none;
 }
 .day-third-img img 
 {
@@ -242,6 +272,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-four-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-four-img a 
+{
+    text-decoration: none;
 }
 .day-four-img img 
 {
@@ -268,6 +308,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-five-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-five-img a 
+{
+    text-decoration: none;
 }
 .day-five-img img 
 {
@@ -294,6 +344,16 @@ span
     background-color: rgb(151, 239, 18);
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.day-six-img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
+.day-six-img a 
+{
+    text-decoration: none;
 }
 .day-six-img img 
 {

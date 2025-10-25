@@ -95,9 +95,10 @@ body
     width: 95%;
     height: 40px;
     color: black;
+    padding-left: 8px;
     background-color: #ffffffaa;
-    border: 1.5px solid rgb(124, 124, 124);
-    border-radius: 2px;
+    border: 1.5px solid black;
+    border-radius: 3px;
     font-size: 13px;
     font-weight: 600;
     margin-top: 20px;
@@ -107,13 +108,18 @@ body
     align-items: center;
     align-content: center;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
     background-color: rgb(14, 149, 14);
     width: 95%;
     height: 40px;
     border-radius: 3px;
     font-size: 20px;
     color: #ffffff;
+    cursor: pointer;
+}
+.butt-in:hover
+{
+    background-color: rgb(19, 247, 19);
 }
 .butt-in a
 {

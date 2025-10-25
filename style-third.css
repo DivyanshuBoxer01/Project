@@ -164,6 +164,11 @@ span
     overflow: hidden;
     transition: all 0.2s ease-in-out;
 }
+.main-img-in:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
 .main-img-in img
 {
     width: 100%;
@@ -194,6 +199,11 @@ span
     cursor: pointer;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
+}
+.main-img-sec:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
 }
 .main-img-sec img
 {
@@ -226,6 +236,11 @@ span
     overflow: hidden;
     transition: all 0.2s ease-in-out;
 }
+.main-img-3:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
 .main-img-3 img
 {
     width: 100%;
@@ -257,6 +272,11 @@ span
     overflow: hidden;
     transition: all 0.2s ease-in-out;
 }
+.main-img-4:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
+}
 .main-img-4 img
 {
     width: 100%;
@@ -287,6 +307,11 @@ span
     cursor: pointer;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
+}
+.main-img-5:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #888;
 }
 .main-img-5 img
 {
